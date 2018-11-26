@@ -5,9 +5,15 @@ body {
   height: 100vh;
   max-width: 100%;
   background-color: black;
+  display: block;
+}
+
+.main-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 #literally-the-only-text {
@@ -18,9 +24,23 @@ body {
   color: white;
 }
 
+#fine-this-is-more-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: left;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 14px;
+  color: dimgrey;
+}
+
 @media (max-width: 500px) {
   #literally-the-only-text {
     margin: 40px;
     font-size: 50px;
+  }
+
+  #fine-this-is-more-text {
+    font-size: 12px;
   }
 }
