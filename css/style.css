@@ -1,0 +1,26 @@
+body {
+  margin: 0px 0px;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#literally-the-only-text {
+  text-align: center;
+  margin: 100px;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  #the-only-text {
+    margin: 40px;
+    font-size: 50px;
+  }
+}
