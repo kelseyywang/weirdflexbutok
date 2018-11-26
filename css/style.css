@@ -19,7 +19,7 @@ body {
 }
 
 @media (max-width: 500px) {
-  #the-only-text {
+  #literally-the-only-text {
     margin: 40px;
     font-size: 50px;
   }
