@@ -16,7 +16,15 @@ body {
   height: 100vh;
 }
 
-#literally-the-only-text {
+#main-text {
+  text-align: center;
+  margin: 100px;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+#main-text-big {
   text-align: center;
   margin: 100px;
   font-family: "Comic Sans MS", sans-serif;
@@ -24,7 +32,7 @@ body {
   color: white;
 }
 
-#fine-this-is-more-text {
+#refresh-text {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -35,12 +43,17 @@ body {
 }
 
 @media (max-width: 500px) {
-  #literally-the-only-text {
+  #main-text-big {
     margin: 40px;
     font-size: 50px;
   }
 
-  #fine-this-is-more-text {
+  #main-text {
+    margin: 40px;
+    font-size: 35px;
+  }
+
+  #refresh-text {
     font-size: 12px;
   }
 }
